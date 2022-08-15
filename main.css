@@ -1,0 +1,153 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #241f1f;
+}
+
+
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+
+.section
+{
+    display: flex;
+    /* height: 100vh; */
+    position: relative;
+    font-family: 'Cabin', sans-serif;
+    color: #f6e6e6;
+    font-size: 7vmin;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.introduction
+{
+    height: 100vh;
+    font-family:'Silkscreen', cursive, 'sans-serif';
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+
+h2 {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.projectsHeader
+{
+    font-family:'Silkscreen', cursive, 'sans-serif';
+    margin-bottom: 10vh;
+    text-decoration: underline;
+}
+
+.projects
+{
+    height: 10vh;
+    font-family: 'Ubuntu Mono', monospace;
+    flex-direction: column;
+}
+
+.projectContent
+{
+    font-size: 3vh;
+    margin-left: 5vh;
+    margin-top: 3vh;
+}
+
+.projectOne
+{
+    height: 40vh;
+    font-size: 5vh;
+
+}
+
+.projectTwo
+{
+    height: 40vh;
+    font-size: 5vh;
+}
+
+.stack
+{
+    font-size: 3vh;
+    margin: 2vh;
+    text-decoration: underline;
+}
+
+.contactMe
+{
+    height: 60vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-bottom: 22vh;
+
+}
+
+.contactHeader
+{
+    color: #94bee6;
+}
+
+.paragraph
+{
+    color: rgba(255, 255, 255, 0.705);
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 4vh;
+}
+
+
+
+a 
+{
+    font-size: 3.5vh;
+    color: rgba(255, 255, 255, 0.705);
+}
+
+.link:link {
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .link:visited {
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .link:active {
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .inline
+  {
+      font-size: 3.5vh;
+  }
+
+  .projects .link {
+      font-size: 3vh;
+      margin: 3vh 7vh;
+      text-decoration: underline;
+  }
+
+/*# sourceMappingURL=main.css.map*/
